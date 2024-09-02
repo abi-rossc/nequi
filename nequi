@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nequi - Aplicación Bancaria</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Nequi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#consultar-saldo">Consultar Saldo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#transferir-dinero">Transferir Dinero</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pagos">Pagos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#notificaciones">Notificaciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#metas">Metas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bolsillo">Bolsillo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#recargas">Recargas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+   
+    <div class="container">
+       
+        <section id="consultar-saldo">
+            <h2>Consultar Saldo</h2>
+            <p>Aquí podrás consultar el saldo de tu cuenta.</p>
+        </section>
+       
+        <section id="login">
+            <h2>Login</h2>
+            <p>Accede a tu cuenta con tus credenciales.</p>
+        </section>
+        
+        <section id="transferir-dinero">
+            <h2>Transferir Dinero</h2>
+            <p>Envía dinero a otras cuentas.</p>
+        </section>
+       
+        <section id="pagos">
+            <h2>Pagos</h2>
+            <p>Realiza pagos de facturas y otros servicios.</p>
+        </section>
+
+        <section id="notificaciones">
+            <h2>Notificaciones</h2>
+            <p>Consulta tus notificaciones y alertas.</p>
+        </section>
+      
+        <section id="metas">
+            <h2>Metas</h2>
+            <p>Establece y realiza seguimiento a tus metas financieras.</p>
+        </section>
+        
+        <section id="bolsillo">
+            <h2>Bolsillo</h2>
+            <p>Gestiona el dinero disponible en tu bolsillo.</p>
+        </section>
+    
+        <section id="recargas">
+            <h2>Recargas</h2>
+            <p>Recarga tu teléfono y otros servicios.</p>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
